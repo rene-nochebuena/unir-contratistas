@@ -72,7 +72,7 @@ const ContractorDashboard = () => {
                     <div className="flex items-center gap-4 mt-3">
                       <span className={`px-4 py-2 rounded-full font-bold text-sm ${getSemaforoConfig(contractor.semaforo).color} text-white`}>
                         {getSemaforoConfig(contractor.semaforo).label}
-                      </span>
+                      </span><br/>
                       <span className="text-slate-600">RFC: {contractor.rfc}</span>
                     </div>
                   </div>
