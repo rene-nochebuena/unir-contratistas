@@ -1,0 +1,60 @@
+Clases CSS Principales Utilizadas
+Colores y Fondos:
+    /* Gradientes */
+bg-gradient-to-br from-slate-50 to-slate-100
+bg-gradient-to-r from-blue-600 to-blue-700
+
+    /* Colores sólidos */
+bg-white
+bg-green-500, bg-blue-500, bg-yellow-500, bg-red-500
+bg-green-50, bg-blue-50, bg-yellow-50, bg-red-50
+Espaciado y Layout:
+    /* Padding */
+p-4, p-6, p-8
+
+    /* Margin */
+m-6, mb-4, mt-2
+
+    /* Gap (espaciado entre elementos flex/grid) */
+gap-2, gap-4, gap-6
+
+    /* Grid */
+grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4
+Dimensiones:
+    /* Ancho */
+w-5, w-8, w-10, w-12, w-24
+w-full
+
+    /* Alto */
+h-5, h-8, h-10, h-12, h-24
+min-h-screen
+Tipografía:
+    /* Tamaños de texto */
+text-sm, text-lg, text-xl, text-2xl, text-3xl, text-5xl
+
+    /* Pesos */
+font-semibold, font-bold
+
+    /* Colores de texto */
+text-slate-600, text-slate-800
+text-white
+text-blue-600, text-green-700
+Efectos y Transiciones:
+    /* Sombras */
+shadow-lg, shadow-xl
+
+    /* Bordes redondeados */
+rounded-lg, rounded-xl, rounded-full
+
+    /* Transiciones */
+transition-all, transition-colors, transition-shadow
+
+    /* Hover effects */
+hover:bg-blue-700
+hover:shadow-xl
+hover:scale-105
+Bordes:
+    /* Grosor y color */
+border-2
+border-slate-200, border-blue-200, border-green-200
+border-l-4
